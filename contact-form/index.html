@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="container">
+
+    <h1>Contact</h1>
+
+    <form action="connect.php" method="post">
+
+        <div class="container-name">
+            
+            <div>
+            <label for="firstName">First Name</label><br>
+            <input type="text" class="input" id="firstName" name="firstName" placeholder="Please enter your first name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label><br>
+                <input type="text" class="input" id="lastName" name="lastName" placeholder="Please enter your last name">
+            </div>
+            
+
+            
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" class="input-email" id="email" name="email" placeholder="myemail@gmail.com">
+        </div>
+
+        <div> 
+            <label for="message">Comment or Message</label><br>
+            <textarea type="text" class="message" id="message" name="message"></textarea>
+
+           
+        </div>
+
+        <input type="submit" class="input-button">
+    </form>
+   </div>
+
+</body>
+</html>

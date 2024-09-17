@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --button-color: #26403D;
+    --button-hover: #07598C;
+    --input-background: #F2F2F0;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    padding: 2rem;
+}
+
+.container h1 {
+    font-weight: 400;
+    font-size: 2.2rem;
+    font-family: "Lora", serif;
+}
+
+.container-name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+.input {
+    background-color: var(--input-background);
+    width: 80%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: none;
+}
+
+.input-email {
+    background-color: var(--input-background);
+    width: 89%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    border: none;
+}
+
+.message {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    resize: none;
+    
+    
+    height: 200px;
+    width: 100%;
+
+    border: none;
+    background-color: var(--input-background);
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 1rem;
+}
+
+input:focus::placeholder {
+    color: #111;
+}
+
+input:focus {
+    outline-color: #111;
+}
+
+.input-button {
+    all: unset;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+    background-color: var(--button-color);
+    color: #fff;
+    padding: 1.2rem;
+    margin-top:  2rem;
+
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.input-button:hover {
+    background-color: var(--button-hover);
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .container-name {
+        display: inline-block;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .input-email {
+        width: 80%;
+    }
+
+    .message {
+        width: 95%;
+        resize: none;
+    }
+
+}
