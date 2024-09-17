@@ -16,4 +16,4 @@ contact details or allowing them to send messages. The form features a minimalis
 ![Screenshot](./screenshot/screenshot-1.PNG)
 
 ## Error Message and Sucess Message
-![Screenshot](./screenshot/screenshot-2.PNG) ![Screenshot](./screenshot/screenshot-3.PNG)
+![Screenshot](./screenshot/screenshot-3.PNG)
