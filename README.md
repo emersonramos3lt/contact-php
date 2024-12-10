@@ -14,6 +14,3 @@ contact details or allowing them to send messages. The form features a minimalis
 
 ## Contact Page
 ![Screenshot](./screenshot/screenshot-1.PNG)
-
-## Error Message and Sucess Message
-![Screenshot](./screenshot/screenshot-3.PNG)
